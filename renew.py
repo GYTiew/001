@@ -16,7 +16,7 @@ TG_ID = os.getenv("TG_ID")
 
 RENEW_ACTION_URL = "https://new.freemchost.com/_serverFn/798181797bd95a02dee916a26c18d3539a58152db8660e097ca48d7cdd8ee50c"
 RENEW_DETAIL_URL = "https://new.freemchost.com/_serverFn/c3a45c08362f2f613bbb6d511a3733a9e85e561709d48bec9280e82a4aa4f47d"
-SERVER_ID = "82f18f00-8d41-49e0-9b33-a4c8c6dd1faa"
+SERVER_ID = "06dfa40a-fad8-4085-92cc-68ca5e52c539"
 
 if not all([EMAIL, PASSWORD, SUPABASE_ANON_KEY, TG_TOKEN, TG_ID]):
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
